@@ -1,0 +1,90 @@
+{
+  "ols": {
+    "n_folds": 5,
+    "pairs_per_fold": [
+      2,
+      3,
+      3,
+      1,
+      2
+    ],
+    "summary_gross": {
+      "n_bars": 300,
+      "cagr": 0.17221900591638728,
+      "vol_ann": 0.10997064063845442,
+      "sharpe": 1.4997102278587326,
+      "sortino": 1.6041171550171445,
+      "max_drawdown": -0.052347956578533306,
+      "max_dd_duration_bars": 119,
+      "calmar": 3.2898897525832047,
+      "hit_rate": 0.30666666666666664,
+      "alpha_ann": 0.16655669308402277,
+      "beta": -0.00563242502232027
+    },
+    "summary_net": {
+      "n_bars": 300,
+      "cagr": 0.15414960044920578,
+      "vol_ann": 0.11008370425469112,
+      "sharpe": 1.3571035721366767,
+      "sortino": 1.5233443455793716,
+      "max_drawdown": -0.05349540633393013,
+      "max_dd_duration_bars": 120,
+      "calmar": 2.88154836112413,
+      "hit_rate": 0.30666666666666664,
+      "alpha_ann": 0.1510432169833526,
+      "beta": -0.005686348660130752
+    },
+    "beta_monitor": {
+      "full_sample_alpha_ann": 0.1510432169833526,
+      "full_sample_beta": -0.005686348660130752,
+      "rolling_beta_mean": -0.011851014396509369,
+      "rolling_beta_std": 0.09371867282070417,
+      "pct_days_abs_beta_within_target": 1.0,
+      "target_abs_beta": 0.25
+    }
+  },
+  "kalman": {
+    "n_folds": 5,
+    "pairs_per_fold": [
+      2,
+      3,
+      3,
+      1,
+      2
+    ],
+    "summary_gross": {
+      "n_bars": 300,
+      "cagr": 0.03393991047014078,
+      "vol_ann": 0.08133099753308744,
+      "sharpe": 0.450764859341515,
+      "sortino": 0.37220689183544425,
+      "max_drawdown": -0.034500020278175114,
+      "max_dd_duration_bars": 151,
+      "calmar": 0.9837649426429855,
+      "hit_rate": 0.23333333333333334,
+      "alpha_ann": 0.040439347549599484,
+      "beta": -0.013034669462271992
+    },
+    "summary_net": {
+      "n_bars": 300,
+      "cagr": 0.010656438272598656,
+      "vol_ann": 0.0814639743634805,
+      "sharpe": 0.17056037241218935,
+      "sortino": 0.1547667638432328,
+      "max_drawdown": -0.039916891041067104,
+      "max_dd_duration_bars": 173,
+      "calmar": 0.26696563772051163,
+      "hit_rate": 0.23,
+      "alpha_ann": 0.01782799602751116,
+      "beta": -0.013570375915910248
+    },
+    "beta_monitor": {
+      "full_sample_alpha_ann": 0.01782799602751116,
+      "full_sample_beta": -0.013570375915910248,
+      "rolling_beta_mean": -0.01492531796553696,
+      "rolling_beta_std": 0.02005827431262311,
+      "pct_days_abs_beta_within_target": 1.0,
+      "target_abs_beta": 0.25
+    }
+  }
+}
